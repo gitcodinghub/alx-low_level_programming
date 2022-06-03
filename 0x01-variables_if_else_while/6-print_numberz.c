@@ -3,15 +3,17 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: returns 0 when everything works fine
  *
  */
 int main(void)
 {
-	int i;
+	int n;
 	
-	for (i = 48; i < 58; i++)
-		putchar(i);
-	putchar('\n');
+	for (n = 48; n < 58; ++n)
+	{
+		putchar(n);
+	}
+	putchar(10);
 	return (0);
 }
