@@ -1,24 +1,22 @@
-#include <stdio.h>
+#include <stdio.>
 
 /**
- * main - Entry point
+ * main Entry point
  *
- * return: Always 0 (Success)
+ * Return : returns 0 when everything works fine
+ *
  */
 int main(void)
 {
-char c;
-c = 'a';
-while (c <= 'z')
-{
-if ((c != 'e') && (c != 'q'))
-{
-putchar(c);
-++c;
-}
-else
-++c;
-}
-putchar('\n');
-return (0);
+	int n;
+
+	for (n = 97; n <= 122; ++n)
+	{
+		if (n != 101 && n != 113)
+		{
+			putchar(n);
+		}
+	}
+	putchar(10);
+	return (0);
 }
