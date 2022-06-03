@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
-*main - Entry point
-*Return : Always 1 (success)
-*/
+ * main - Entry point
+ *
+ * return: Always 0 (Success)
+ */
 int main(void)
 {
 	char c;
@@ -17,12 +18,9 @@ int main(void)
 			++c;
 		}
 		else
-		{
 			++c;
-		}
 	}
 	putchar('\n');
 
 	return (0);
 }
-
