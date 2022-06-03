@@ -1,20 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: Print lower and upper alphabet on the same line
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int c;
+	char low;
 
-	for (c = 0; c < 26; ++c)
-		putchar('a' + c);
-	for (c = 0; c < 26; ++c)
-		putchar('A' + c);
-
-	putchar('\n');
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+	for (low = 'A'; low <= 'Z'; low++)
+		putchar(low);
+		putchar('\n');
 
 	return (0);
 }
