@@ -16,5 +16,5 @@ int main(void)
 	for (n = 65; n <= 90; ++n)
 		putchar(n);
 	putchar(10);
-	return (0)
+	return (0);
 }
