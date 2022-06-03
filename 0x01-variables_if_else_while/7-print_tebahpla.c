@@ -8,7 +8,7 @@
 /**
  * main - Prints the lowercase alphabet in reverse.
  *
- * Return: Always 0.
+ * Return: 0.
  */
 int main(void)
 {
@@ -19,5 +19,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
