@@ -1,25 +1,20 @@
 #include <stdio.h>
 
 /**
-* main- Entry point
-*
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: returns 0 when everything works fine
+ *
+ */
+
 int main(void)
 {
-	int x;
-	char c;
+	int n;
 
-	for (x = 0; x < 26; x++)
-	{
-		c = 97 + x;
-		putchar(c);
-	}
-	for (x = 0; x < 26; x++)
-	{
-		c = 65 + x;
-		putchar(c);
-	}
-	putchar('\n');
-	return (0);
+	for (n = 97; n <= 122; ++n)
+		putchar(n);
+	for (n = 65; n <= 90; ++n)
+		putchar(n);
+	putchar(10);
+	return (0)
 }
