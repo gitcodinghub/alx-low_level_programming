@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - alphabet x 10
  *
- * 
+ *
  *
  * Return: nothing
  */
