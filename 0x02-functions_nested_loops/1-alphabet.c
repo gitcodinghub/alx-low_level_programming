@@ -7,13 +7,15 @@
  *
  * Return: 0
  */
-int main(void)
+int print_aphabet(void)
 {
-	for (char i = 97; i <= 122; i++)
+	char i;
+
+	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
 	}
-
 	puthcar('\n');
-	return (0);
+
 }
+
