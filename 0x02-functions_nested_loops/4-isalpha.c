@@ -4,7 +4,8 @@
  * _isalpha - letter or not
  * @c: parameter 1
  *
- * Return: nothing
+ * Return: nothig
+ *
  */
 int _isalpha(int c)
 {
