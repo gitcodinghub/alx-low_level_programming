@@ -1,15 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
-/**
- * main - entry point
+/*
+ * times_table - prints the times table from 0 - 9.
  *
- * Description: Prints 
  *
- * Return: 0
+ * Return: nothing
+ *
  */
-int main(void)
+int print_last_digit(int n)
 {
-	return (0);
+	if (n < 0)
+		n = n * -1;
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
