@@ -1,15 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * add - Determines whether an integer is positive, negative or zero.
+ * @i: param 1
+ * @j: param 2
+ * Return: returns the sum of two numbers
  *
- * Description: Prints 
  *
- * Return: 0
  */
-int main(void)
+
+int add(int i, int j)
 {
-	return (0);
+	n = i + j;
+	return (n);
 }

@@ -1,15 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - entry point
+ * print_to_98 - function
+ * @n: param 1
  *
- * Description: Prints 
+ * Return: returns nothing
  *
- * Return: 0
  */
-int main(void)
+void print_to_98(int n)
 {
-	return (0);
+	if (n < 1 )
+		n = 1;
+
+	for (; n <= 98; n++)
+	{
+		printf("%d, ",n);
+	}
 }
