@@ -1,15 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * _abs - Determines whether an integer is positive, negative or zero.
+ * @n: param 1
+ * 
  *
- * Description: Prints 
+ * Return: resturns absolute value of a number
  *
- * Return: 0
  */
-int main(void)
+int _abs(int n)
 {
-	return (0);
+	if (n < 0)
+		n = n * -a;
+	return (n);
 }
