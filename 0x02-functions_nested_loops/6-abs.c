@@ -3,7 +3,6 @@
 /**
  * _abs - Determines whether an integer is positive, negative or zero.
  * @n: param 1
- * 
  *
  * Return: resturns absolute value of a number
  *
