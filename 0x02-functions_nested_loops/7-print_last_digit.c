@@ -1,15 +1,13 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
+ * print_last_digit - prints last digit
+ * @n: param 1
  *
- * Description: Prints 
+ * Return: last digit of a number
  *
- * Return: 0
  */
-int main(void)
+int print_last_digit(int n)
 {
-	return (0);
+	return (n%10);
 }
