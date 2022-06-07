@@ -2,6 +2,7 @@
 
 /**
  * main - entry point
+ * print_alphabet - prints alphabet
  *
  * Description: Prints alphabet in lowercase then new line
  *
