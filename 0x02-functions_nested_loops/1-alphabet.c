@@ -15,7 +15,7 @@ void print_aphabet(void)
 	{
 		_putchar(i);
 	}
-	puthcar('\n');
+	_puthcar('\n');
 
 }
 
