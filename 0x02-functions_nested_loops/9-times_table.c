@@ -1,16 +1,35 @@
 #include "main.h"
 
-/*
- * times_table - prints the times table from 0 - 9.
+/**
+ * times_table - print a multiplication table of single-digit numbers
  *
- *
- * Return: nothing
- *
+ * Return:nothing
  */
-int print_last_digit(int n)
+
+void times_table(void)
 {
-	if (n < 0)
-		n = n * -1;
-	_putchar((n % 10) + '0');
-	return (n % 10);
+	int i;
+	int j;
+
+	for (i = 0; i < 10; ++i)
+	{
+		for (j = 0; j < 10; ++j)
+		{
+			if (j == 0)
+				;
+			else if ((i * j) < 10)
+				_putchar(' ');
+			else
+				_putchar('0' + i * j / 10);
+
+			_putchar('0' + i * j % 10);
+
+			if (j < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+		_putchar('\n');
+	}
 }
